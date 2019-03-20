@@ -1,0 +1,9 @@
+{
+	entry = {
+		bundle = NotificatePrefs;
+		cell = PSLinkCell;
+		detail = "NotificatePrefsListController";
+		isController = 1;
+		label = Notificate;
+	};
+}
