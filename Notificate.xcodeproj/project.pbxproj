@@ -9,25 +9,12 @@
 /* Begin PBXBuildFile section */
 		D8ACC6B92241DD9500DB97E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8ACC6B82241DD9500DB97E0 /* Foundation.framework */; };
 		D8ACC6D42241DDD600DB97E0 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D8ACC6D32241DDD600DB97E0 /* libsubstrate.dylib */; };
-		D8ACC6D82241E21B00DB97E0 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = D8ACC6D62241E21A00DB97E0 /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D836770B2241E6A600701F71 /* control */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
 		D8ACC6B52241DD9500DB97E0 /* Notificate.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Notificate.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8ACC6B82241DD9500DB97E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D8ACC6BD2241DD9500DB97E0 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
-		D8ACC6BE2241DD9500DB97E0 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
-		D8ACC6C02241DD9500DB97E0 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
-		D8ACC6C42241DD9500DB97E0 /* Notificate.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Notificate.plist; path = Package/Library/PreferenceLoader/Preferences/Notificate.plist; sourceTree = "<group>"; };
-		D8ACC6C52241DD9500DB97E0 /* NotificateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NotificateIcon.png; path = Package/Library/PreferenceLoader/Preferences/NotificateIcon.png; sourceTree = "<group>"; };
-		D8ACC6C62241DD9500DB97E0 /* NotificateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NotificateIcon@2x.png"; path = "Package/Library/PreferenceLoader/Preferences/NotificateIcon@2x.png"; sourceTree = "<group>"; };
-		D8ACC6C72241DD9500DB97E0 /* Notificate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Notificate-Prefix.pch"; sourceTree = "<group>"; };
-		D8ACC6CD2241DD9500DB97E0 /* Notificate.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Notificate.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Notificate.plist; sourceTree = "<group>"; };
 		D8ACC6D32241DDD600DB97E0 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
-		D8ACC6D62241E21A00DB97E0 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		D8ACC6D72241E21A00DB97E0 /* Prefs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Prefs; sourceTree = "<group>"; };
-		D8ACC6D92241E25400DB97E0 /* Tweak */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tweak; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +33,6 @@
 		D8ACC6AA2241DD9500DB97E0 = {
 			isa = PBXGroup;
 			children = (
-				D8ACC6BA2241DD9500DB97E0 /* Notificate */,
 				D8ACC6B72241DD9500DB97E0 /* Frameworks */,
 				D8ACC6B62241DD9500DB97E0 /* Products */,
 			);
@@ -67,89 +53,6 @@
 				D8ACC6B82241DD9500DB97E0 /* Foundation.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D8ACC6BA2241DD9500DB97E0 /* Notificate */ = {
-			isa = PBXGroup;
-			children = (
-				D836770B2241E6A600701F71 /* control */,
-				D8ACC6D62241E21A00DB97E0 /* Makefile */,
-				D8ACC6D92241E25400DB97E0 /* Tweak */,
-				D8ACC6D72241E21A00DB97E0 /* Prefs */,
-				D8ACC6BB2241DD9500DB97E0 /* Package */,
-				D8ACC6BF2241DD9500DB97E0 /* Supporting Files */,
-			);
-			path = Notificate;
-			sourceTree = "<group>";
-		};
-		D8ACC6BB2241DD9500DB97E0 /* Package */ = {
-			isa = PBXGroup;
-			children = (
-				D8ACC6BC2241DD9500DB97E0 /* DEBIAN */,
-				D8ACC6C12241DD9500DB97E0 /* Library */,
-			);
-			name = Package;
-			sourceTree = "<group>";
-		};
-		D8ACC6BC2241DD9500DB97E0 /* DEBIAN */ = {
-			isa = PBXGroup;
-			children = (
-				D8ACC6BD2241DD9500DB97E0 /* control.txt */,
-				D8ACC6BE2241DD9500DB97E0 /* control */,
-			);
-			name = DEBIAN;
-			sourceTree = "<group>";
-		};
-		D8ACC6BF2241DD9500DB97E0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D8ACC6C02241DD9500DB97E0 /* PackageVersion.plist */,
-				D8ACC6C72241DD9500DB97E0 /* Notificate-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D8ACC6C12241DD9500DB97E0 /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				D8ACC6C22241DD9500DB97E0 /* PreferenceLoader */,
-				D8ACC6CB2241DD9500DB97E0 /* MobileSubstrate */,
-			);
-			name = Library;
-			sourceTree = "<group>";
-		};
-		D8ACC6C22241DD9500DB97E0 /* PreferenceLoader */ = {
-			isa = PBXGroup;
-			children = (
-				D8ACC6C32241DD9500DB97E0 /* Preferences */,
-			);
-			name = PreferenceLoader;
-			sourceTree = "<group>";
-		};
-		D8ACC6C32241DD9500DB97E0 /* Preferences */ = {
-			isa = PBXGroup;
-			children = (
-				D8ACC6C42241DD9500DB97E0 /* Notificate.plist */,
-				D8ACC6C52241DD9500DB97E0 /* NotificateIcon.png */,
-				D8ACC6C62241DD9500DB97E0 /* NotificateIcon@2x.png */,
-			);
-			name = Preferences;
-			sourceTree = "<group>";
-		};
-		D8ACC6CB2241DD9500DB97E0 /* MobileSubstrate */ = {
-			isa = PBXGroup;
-			children = (
-				D8ACC6CC2241DD9500DB97E0 /* DynamicLibraries */,
-			);
-			name = MobileSubstrate;
-			sourceTree = "<group>";
-		};
-		D8ACC6CC2241DD9500DB97E0 /* DynamicLibraries */ = {
-			isa = PBXGroup;
-			children = (
-				D8ACC6CD2241DD9500DB97E0 /* Notificate.plist */,
-			);
-			name = DynamicLibraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +159,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8ACC6D82241E21B00DB97E0 /* Makefile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

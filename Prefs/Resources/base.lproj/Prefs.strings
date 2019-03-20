@@ -1,0 +1,14 @@
+{
+  "ENABLED" = "Notificated";
+  "STYLE" = "Style (TBI)";
+  "COMPONENTS" = "Components(TBI)";
+  "NOTIFICATEALL" = "Apply to all(!) notifications";
+  "RESPRING" = "Respring";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Are you sure?";
+  "OK" = "OK";
+  "CANCEL" = "Cancel";
+  "RESET_PREFS" = "Reset Defaults";
+  "SOURCE_CODE" = "Source Code";
+  "DONATE_TO_NEPETA" = "Donate";
+  "SUPPORT_ME" = "Support Me";
+}

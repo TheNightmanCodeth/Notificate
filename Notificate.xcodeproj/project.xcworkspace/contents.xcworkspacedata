@@ -2,6 +2,21 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Notificate.xcodeproj">
+      location = "group:../control">
+   </FileRef>
+   <FileRef
+      location = "group:../Makefile">
+   </FileRef>
+   <FileRef
+      location = "group:../Package">
+   </FileRef>
+   <FileRef
+      location = "group:../Prefs">
+   </FileRef>
+   <FileRef
+      location = "group:../Tweak">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

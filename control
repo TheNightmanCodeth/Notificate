@@ -1,9 +1,9 @@
-Package: me.jdiggity.notificate
+Package: me.jdiggity.Notificate
 Name: Notificate
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
-Version: 0.0.1
+Version: 0.1.1
 Architecture: iphoneos-arm
-Description: Customize the text in your notifications
+Description: Control your notifications
 Maintainer: TheNightmanCodeth
 Author: TheNightmanCodeth
 Section: Tweaks
