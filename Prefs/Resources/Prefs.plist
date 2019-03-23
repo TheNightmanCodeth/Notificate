@@ -11,18 +11,26 @@
 			<string>NotiCell</string>
 		</dict>
 		<dict>
-			<key>alternateColors</key>
-			<true/>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>label</key>
+			<string>TheNightmanCodeth</string>
+			<key>user</key>
+			<string>joooyooo2</string>
+		</dict>
+		<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
 			<true/>
 			<key>defaults</key>
 			<string>me.jdiggity.Notificate</string>
-			<key>key</key>
-			<string>Enabled</string>
 			<key>label</key>
 			<string>ENABLED</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>alternateColors</key>
+			<true/>
 		</dict>
 		<dict/>
 		<dict>
@@ -32,18 +40,18 @@
 			<string>COMPONENTS</string>
 		</dict>
 		<dict>
-			<key>alternateColors</key>
-			<true/>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
 			<true/>
 			<key>defaults</key>
 			<string>me.jdiggity.Noitificate</string>
-			<key>key</key>
-			<string>NotificateAll</string>
 			<key>label</key>
 			<string>NOTIFICATEALL</string>
+			<key>key</key>
+			<string>NotificateAll</string>
+			<key>alternateColors</key>
+			<true/>
 		</dict>
 		<dict/>
 		<dict/>
@@ -52,7 +60,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>footerText</key>
-			<string>Notificate by TheNightman, P0tat0J0e</string>
+			<string>Notificate by TheNightman</string>
 			<key>isStaticText</key>
 			<true/>
 		</dict>
@@ -69,19 +77,19 @@
 			<string>resetPrefs:</string>
 			<key>cell</key>
 			<string>PSButtonCell</string>
-			<key>confirmation</key>
-			<dict>
-				<key>cancelTitle</key>
-				<string>CANCEL</string>
-				<key>okTitle</key>
-				<string>OK</string>
-				<key>prompt</key>
-				<string>ARE_YOU_SURE_YOU_WANT_TO_RESET_PREFS</string>
-				<key>title</key>
-				<string>OK</string>
-			</dict>
 			<key>isDestructive</key>
 			<true/>
+			<key>confirmation</key>
+			<dict>
+				<key>prompt</key>
+				<string>ARE_YOU_SURE_TO_RESET_PREFS</string>
+				<key>title</key>
+				<string>OK</string>
+				<key>okTitle</key>
+				<string>OK</string>
+				<key>cancelTitle</key>
+				<string>CANCEL</string>
+			</dict>
 			<key>label</key>
 			<string>RESET_PREFS</string>
 		</dict>
@@ -99,37 +107,11 @@
 			<key>cellClass</key>
 			<string>HBLinkTableCell</string>
 			<key>label</key>
-			<string>DONATE_TO_JDiggity</string>
+			<string>DONATE_TO_NEPETA</string>
 			<key>subtitle</key>
 			<string>SUPPORT_ME</string>
 			<key>url</key>
 			<string>https://jdiggity.me/donate</string>
-		</dict>
-		<dict>
-			<key>cellClass</key>
-			<string>HBLinkTableCell</string>
-			<key>label</key>
-			<string>DONATE_TO_P0tat0J0e</string>
-			<key>subtitle</key>
-			<string>SUPPORT_ME</string>
-			<key>url</key>
-			<string>New string</string>
-		</dict>
-		<dict>
-			<key>cellClass</key>
-			<string>HBTwitterCell</string>
-			<key>label</key>
-			<string>TheNightmanCodeth</string>
-			<key>user</key>
-			<string>joooyooo2</string>
-		</dict>
-		<dict>
-			<key>cellClass</key>
-			<string>HBTwitterCell</string>
-			<key>label</key>
-			<string>P0tat0J0e</string>
-			<key>user</key>
-			<string>P0tat0Joe</string>
 		</dict>
 	</array>
 	<key>title</key>

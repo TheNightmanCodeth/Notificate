@@ -1,15 +1,14 @@
 {
-    "ARE_YOU_SURE_TO_RESET_PREFS" = "Are you sure?";
-    CANCEL = Cancel;
-    COMPONENTS = "Components(TBI)";
-    "DONATE_TO_JDIGGITY" = Donate;
-    "DONATE_TO_P0tat0J0e" = Donate;
-    ENABLED = Notificated;
-    NOTIFICATEALL = "Apply to all(!) notifications";
-    OK = OK;
-    "RESET_PREFS" = "Reset Defaults";
-    RESPRING = Respring;
-    "SOURCE_CODE" = "Source Code";
-    STYLE = "Style (TBI)";
-    "SUPPORT_ME" = "Support Me";
+  "ENABLED" = "Notificated";
+  "STYLE" = "Style (TBI)";
+  "COMPONENTS" = "Components(TBI)";
+  "NOTIFICATEALL" = "Apply to all(!) notifications";
+  "RESPRING" = "Respring";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Are you sure?";
+  "OK" = "OK";
+  "CANCEL" = "Cancel";
+  "RESET_PREFS" = "Reset Defaults";
+  "SOURCE_CODE" = "Source Code";
+  "DONATE_TO_NEPETA" = "Donate";
+  "SUPPORT_ME" = "Support Me";
 }

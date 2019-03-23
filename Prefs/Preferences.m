@@ -39,16 +39,12 @@
     self.navigationController.navigationController.navigationBar.translucent = YES;
 }
 
-- (void)setCustomText:(id)sender {
-
-}
-
 - (void)testNotifications:(id)sender {
-    CFNotificationCenterPostNotification(CFNotificationCenterGetDarwinNotifyCenter(), (CFStringRef)@"me.jdiggity.Notificate/TestNotifications", nil, nil, true);
+    CFNotificationCenterPostNotification(CFNotificationCenterGetDarwinNotifyCenter(), (CFStringRef)@"me.nepeta.owo/TestNotifications", nil, nil, true);
 }
 
 - (void)testBanner:(id)sender {
-   CFNotificationCenterPostNotification(CFNotificationCenterGetDarwinNotifyCenter(), (CFStringRef)@"me.jdiggity.Notificate/TestBanner", nil, nil, true);
+    CFNotificationCenterPostNotification(CFNotificationCenterGetDarwinNotifyCenter(), (CFStringRef)@"me.nepeta.owo/TestBanner", nil, nil, true);
 }
 
 - (void)resetPrefs:(id)sender {
