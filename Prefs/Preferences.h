@@ -11,5 +11,4 @@
     - (void)respring:(id)sender;
     - (void)testNotifications:(id)sender;
     - (void)testBanner:(id)sender;
-    - (void)setCustomText:(id)sender;
 @end
