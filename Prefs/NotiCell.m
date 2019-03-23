@@ -1,7 +1,7 @@
-#import "OwOCell.h"
+#import "NotiCell.h"
 #import <Preferences/PSSpecifier.h>
 
-@implementation OwOCell
+@implementation NotiCell
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier specifier:(PSSpecifier *)specifier {
 	self = [super initWithStyle:style reuseIdentifier:reuseIdentifier specifier:specifier];
