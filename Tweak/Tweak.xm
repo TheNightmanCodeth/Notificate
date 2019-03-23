@@ -19,6 +19,7 @@
  *  Created by Joe Diragi on 3/19/19.
  *  Copyright © 2019 TheNightmanCodeth. All rights reserved.
  ***/
+#include <Cephei/HBPreferences.h>
 
 NSString *replace (NSString *replaceThis, NSString *withThis) {
     NSString *holder = [replaceThis copy];
@@ -44,8 +45,8 @@ NSString *replace (NSString *replaceThis, NSString *withThis) {
 
 %ctor {
     if (! [NSProcessInfo processInfo]) return;
-    NSString *processName = [NSProcessInfo processInfo].processName;
-    bool isSpringboard = [@"SpringBoard" isEqualToString:processName];
+    //NSString *processName = [NSProcessInfo processInfo].processName;
+    //bool isSpringboard = [@"SpringBoard" isEqualToString:processName];
     
     HBPreferences *file = [[HBPreferences alloc] initWithIdentifier:@"me.jdiggity.notificate"];
     
