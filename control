@@ -1,4 +1,4 @@
-Package: me.jdiggity.Notificate
+Package: me.jdiggity.notificate
 Name: Notificate
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
 Version: 0.1.1
