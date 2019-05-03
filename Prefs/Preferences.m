@@ -65,3 +65,76 @@
     [t launch];
 }
 @end
+
+// Custom application settings page
+
+@implementation NotificatePrefsCustomAppsController
+- (instancetype)init {
+    self = [super init];
+
+    if (self) {
+        HBAppearanceSettings *appearanceSettings = [[HBAppearanceSettings alloc] init];
+        appearanceSettings.tintColor = [UIColor colorWithRed:0.1f green:0.1f blue:0.1f alpha:1];
+        appearanceSettings.tableViewCellSeparatorColor = [UIColor colorWithWhite:0 alpha:0];
+        self.hb_appearanceSettings = appearanceSettings;
+    }
+
+    return self;
+}
+- (id)specifiers {
+    if (_specifiers == nil) {
+        _specifiers = [[self loadSpecifiersFromPlistName:@"CustomAppsPrefs" target:self] retain];
+    }
+    return _specifiers;
+}
+
+- (void)loadView {
+    [super loadView];
+
+    NSError *error;
+    NSArray *appDirs = [[NSFileManager defaultManager] 
+        contentsOfDirectoryAtPath:@"/Applications" error: &error];
+    if (error != nil) {
+        NSLog(@"Notificate.ERROR: Couldn't get NSFileManager");
+        NSLog(@"%@", error.localizedDescription);
+    }
+    apps = [[NSMutableArray alloc]init];
+    for (NSString *dir in appDirs) {
+        NSArray *dotSep = [dir componentsSeparatedByString:@"."];
+        NSString *appTitle = [dotSep objectAtIndex:0];
+        [apps addObject:appTitle];
+    }
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
+
+    CGRect frame = self.table.bounds;
+    frame.origin.y = -frame.size.height;
+	
+    [self.navigationController.navigationController.navigationBar setShadowImage: [UIImage new]];
+    self.navigationController.navigationController.navigationBar.translucent = YES;
+}
+
+- (NSArray *)installedApps:(id)target {
+    return apps;
+}
+- (NSArray *)installedVals:(id)target {
+    return apps;
+}
+@end
+
+@interface NotificatePrefsCustomAppsListItemController : PSListItemsController
+@end
+
+@implementation NotificatePrefsCustomAppsListItemController
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+
+    CGRect frame = self.table.bounds;
+    frame.origin.y = -frame.size.height;
+	
+    [self.navigationController.navigationController.navigationBar setShadowImage: [UIImage new]];
+    self.navigationController.navigationController.navigationBar.translucent = YES;
+}
+@end

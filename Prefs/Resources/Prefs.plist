@@ -11,8 +11,6 @@
 			<string>NotiCell</string>
 		</dict>
 		<dict>
-			<key>alternateColors</key>
-			<true/>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
@@ -24,7 +22,6 @@
 			<key>label</key>
 			<string>ENABLED</string>
 		</dict>
-		<dict/>
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
@@ -32,8 +29,16 @@
 			<string>COMPONENTS</string>
 		</dict>
 		<dict>
-			<key>alternateColors</key>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>NotificatePrefsCustomAppsController</string>
+			<key>isController</key>
 			<true/>
+			<key>label</key>
+			<string>CUSTOM_APPS_LABEL</string>
+		</dict>
+		<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
@@ -45,9 +50,6 @@
 			<key>label</key>
 			<string>NOTIFICATEALL</string>
 		</dict>
-		<dict/>
-		<dict/>
-		<dict/>
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>

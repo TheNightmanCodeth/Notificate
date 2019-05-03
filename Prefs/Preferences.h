@@ -1,4 +1,5 @@
 #import <Preferences/PSListController.h>
+#import <Preferences/PSListItemsController.h>
 #import <Preferences/PSSpecifier.h>
 #import <CepheiPrefs/HBRootListController.h>
 #import <CepheiPrefs/HBAppearanceSettings.h>
@@ -12,4 +13,9 @@
     - (void)testNotifications:(id)sender;
     - (void)testBanner:(id)sender;
     - (void)setCustomText:(id)sender;
+@end
+
+@interface NotificatePrefsCustomAppsController : PSListController {
+    NSMutableArray *apps;
+}
 @end
