@@ -1,9 +1,7 @@
 Package: me.jdiggity.notificate
 Name: Notificate
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>=11.0)
 Version: 0.1.1
 Architecture: iphoneos-arm
 Description: Control your notifications
-Maintainer: TheNightmanCodeth, P0tat0J0e
-Author: TheNightmanCodeth, P0tat0J0e 
-Section: Tweaks
+Maintainer: TheNightmanCodeth
