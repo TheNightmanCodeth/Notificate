@@ -12,4 +12,7 @@ obj
 .vscode
 packages
 
+*.xcscheme
+
 # End of https://www.gitignore.io/api/theos-tweak
+Notificate.xcodeproj/xcshareddata/xcschemes/Notificate 2.xcscheme
